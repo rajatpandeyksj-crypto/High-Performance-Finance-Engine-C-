@@ -12,3 +12,17 @@ void Account::deposit(long long amount){
 balance+=amount;
 
 }
+
+bool Account::withdraw(long long amount){
+if (balance>=amount){
+balance -=amount;
+  return true;
+  
+}
+
+  else {
+  
+  return false;   
+  }
+
+}
