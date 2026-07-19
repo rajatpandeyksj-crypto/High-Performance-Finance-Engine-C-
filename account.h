@@ -14,11 +14,7 @@ public:
 
 
 // parametrised constructor
-   Account(int id, string name, long long balance){
-    this->id = id;
-    this->name = name;
-    this->balance = balance;
-}
+   Account(int id, string name, long long balance);
 
 
 void deposit(long long balance);
