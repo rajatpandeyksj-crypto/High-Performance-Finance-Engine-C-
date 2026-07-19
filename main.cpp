@@ -1,5 +1,5 @@
 int main(){
- financeengine engine();
+ FinanceEngine engine;
   engine.start();
 
   return 0;
